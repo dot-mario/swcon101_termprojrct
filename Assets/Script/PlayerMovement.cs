@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     bool isForced = false;
     bool isFly = false; // 공중에 있는지 여부를 나타내는 변수
     bool jumpFocusing = false; //점프 차징 여부
+    bool isGrounded;
     float jumpForce = 0f; // 점프 힘
     float jumpKeyStartTime = 0.0f;
     //float jumpStartTime;  // 점프를 시작한 시간
@@ -45,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
     public float flyTimeThreshold = 1.0f; // 플레이어가 공중에 있는 시간 임계값
     public float rotationSpeed = 90.0f;
     public float maxJumpTime = 5.0f;
+    public bool isJumpDeduff = true;
 
     Vector3 moveVec;
 
@@ -76,17 +78,17 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //자식 오브젝트
-        Transform childTransform = transform.Find("Cat");
-        if (childTransform != null)
-        {
-            // 자식 오브젝트를 찾았을 때 원하는 작업 수행
-            cat = childTransform.gameObject;
-            Debug.Log("자식 오브젝트를 찾았습니다: " + cat.name);
-        }
-        else
-        {
-            Debug.Log("자식 오브젝트를 찾지 못했습니다.");
-        }
+        //Transform childTransform = transform.Find("Cat");
+        //if (childTransform != null)
+        //{
+        //    // 자식 오브젝트를 찾았을 때 원하는 작업 수행
+        //    cat = childTransform.gameObject;
+        //    Debug.Log("자식 오브젝트를 찾았습니다: " + cat.name);
+        //}
+        //else
+        //{
+        //    Debug.Log("자식 오브젝트를 찾지 못했습니다.");
+        //}
     }
 
     void Update()
@@ -99,6 +101,7 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         ForceCheck();
+        GroundCheck();
         FlyCheck();
     }
 
@@ -127,11 +130,11 @@ public class PlayerMovement : MonoBehaviour
 
         moveVec = (vAxis * cameraForward + hAxis * cameraRight).normalized;
 
-        float focusDebuff = 0;
+        float focusDebuff = 1;
 
-        if (jumpFocusing)
+        if (isJumpDeduff && jumpFocusing)
         {
-            focusDebuff = 2 * walk_speed/3;
+            focusDebuff = 0;
         }
 
         if (sRun)
@@ -141,7 +144,7 @@ public class PlayerMovement : MonoBehaviour
             //Debug.Log("Roll: " + currentRunningTime);
             if (currentRunningTime > rollingTime)
             {
-                transform.position += moveVec * (walk_speed + additional_run_speed + additional_roll_speed - focusDebuff * 3) * Time.deltaTime;
+                transform.position += moveVec * (walk_speed + additional_run_speed + additional_roll_speed) * focusDebuff * Time.deltaTime;
                 //cat.transform.rotation *= Quaternion.Euler(rotationSpeed, 0, 0);
                 //rigid.AddTorque(transform.right * rotationSpeed);
                 //cat.GetComponent<Rigidbody>().AddTorque(transform.right * rotationSpeed);
@@ -149,7 +152,7 @@ public class PlayerMovement : MonoBehaviour
             }
             else
             {
-                transform.position += moveVec * (walk_speed + additional_run_speed - focusDebuff * 2) * Time.deltaTime;
+                transform.position += moveVec * (walk_speed + additional_run_speed) * focusDebuff * Time.deltaTime;
                 anim.SetBool("isRoll", false);
                 anim.SetBool("isRun", true);
             }
@@ -158,7 +161,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rigid.angularVelocity = Vector3.zero;
             currentRunningTime = 0;
-            transform.position += moveVec * (walk_speed - focusDebuff) * Time.deltaTime;
+            transform.position += moveVec * (walk_speed) * focusDebuff * Time.deltaTime;
             anim.SetBool("isRun", false);
             anim.SetBool("isRoll", false);
             anim.SetBool("isWalk", moveVec != Vector3.zero); // Walk 애니메이션 true
@@ -181,10 +184,10 @@ public class PlayerMovement : MonoBehaviour
         //    return;
 
         // 게이지 입력을 받아 jumpForce를 설정 (스페이스바를 누를 때 게이지 값에 따라 jumpForce를 설정)
-        if (jDown && !isJump)
+        if (jDown && !isJump && isGrounded)
         {
             jumpKeyStartTime += Time.deltaTime;
-            anim.SetFloat("JumpSpeed", (float)(0.154 / maxJumpTime));
+            anim.SetFloat("JumpSpeed", (float)(jumpAnimLength / maxJumpTime));
             //Debug.Log("Speed: " + 0.154 / jumpKeyStartTime);
             if (jumpKeyStartTime > maxJumpTime)
             {
@@ -198,7 +201,7 @@ public class PlayerMovement : MonoBehaviour
                 jDowned = false;
             }
         }
-        if (jUp && !isJump) // Jump하고 있는 상황에서 Jump 하지 않도록 방지        
+        if (jUp && !isJump && isGrounded) // Jump하고 있는 상황에서 Jump 하지 않도록 방지        
         {
             isJump = true;
             jumpFocusing = false;
@@ -248,6 +251,25 @@ public class PlayerMovement : MonoBehaviour
             //    //anim.SetFloat("JumpSpeed", jumpDuration); // 점프 시간을 이용하여 애니메이션 속도 조절
             //}
         }
+    }
+    void GroundCheck()
+    {
+        // 플레이어 주변에 Raycast를 쏘아 안정된 표면에 있는지를 판단
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, -transform.up, out hit, 0.1f)) // -transform.up은 아래 방향을 나타냅니다.
+        {
+            float angle = Vector3.Angle(hit.normal, Vector3.up);
+            if (angle < 10f) // 표면의 법선 벡터가 일정 각도 이하로 기울어져 있으면 안정된 표면으로 간주
+            {
+                isGrounded = true;
+                isFly = false;
+                anim.SetBool("isFly", false);
+                isJump = false;
+                return;
+            }
+        }
+        isGrounded = false;
+        isFly = true;
     }
     void ForceCheck()
     {
@@ -301,24 +323,25 @@ public class PlayerMovement : MonoBehaviour
     // OnCollisionEnter를 사용하여 캐릭터가 땅에 닿았는지 확인
     void OnCollisionEnter(Collision collision)
     {
-        isFly = false;
-        anim.SetBool("isFly", false);
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isJump = false;
-            jDowned = true;
-            //Debug.Log("경과 시간: " + (Time.time - jumpStartTime));
-        }
+        //isFly = false;
+        //anim.SetBool("isFly", false);
+        jDowned = true;
+        //if (collision.gameObject.CompareTag("Ground"))
+        //{
+        //    isJump = false;
+        //    jDowned = true;
+        //    //Debug.Log("경과 시간: " + (Time.time - jumpStartTime));
+        //}
     }
 
     // OnCollisionExit를 사용하여 캐릭터가 땅에서 벗어났는지 확인
     void OnCollisionExit(Collision collision)
     {
-        isFly = true;
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            //isGrounded = false;
-        }
+        //isFly = true;
+        //if (collision.gameObject.CompareTag("Ground"))
+        //{
+        //    //isGrounded = false;
+        //}
     }
     void RestForce()
     {

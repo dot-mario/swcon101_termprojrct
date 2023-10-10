@@ -1,0 +1,316 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ko' Physical Memory: 32524 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+D:/새 폴더/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+5274
+Successfully changed project path to: D:/새 폴더/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct
+D:/새 폴더/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [34116] Host "[IP] 192.168.55.154 [Port] 0 [Flags] 2 [Guid] 4181576510 [EditorId] 4181576510 [Version] 1048832 [Id] WindowsEditor(7,������) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [34116] Host "[IP] 192.168.55.154 [Port] 0 [Flags] 2 [Guid] 4181576510 [EditorId] 4181576510 [Version] 1048832 [Id] WindowsEditor(7,������) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 67.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/새 폴더/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.3640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003142 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 73.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.449 seconds
+Domain Reload Profiling:
+	ReloadAssembly (449ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (316ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (72ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (193ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003678 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 69.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.144 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2145ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1992ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (745ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (548ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5398 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (0.7 MB). Loaded Objects now: 5867.
+Memory consumption went from 233.1 MB to 232.4 MB.
+Total: 2.637700 ms (FindLiveObjects: 0.274400 ms CreateObjectMapping: 0.180400 ms MarkObjects: 1.961500 ms  DeleteObjects: 0.220500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11675.830387 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom
+  artifactKey: Guid(cab23634460db5e4fa719192d82d794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom using Guid(cab23634460db5e4fa719192d82d794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3b478c299a2b8b18964346a45fc3c7') in 0.231951 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Shower_01.prefab
+  artifactKey: Guid(f89c182b00f3fdd4fa41a1fa41adda6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Shower_01.prefab using Guid(f89c182b00f3fdd4fa41a1fa41adda6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744c7af9b6bb47eac9645f1e12146626') in 0.380587 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Toilet_02.prefab
+  artifactKey: Guid(9b6aed1405ca3a04f8ca5177d21d1706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Toilet_02.prefab using Guid(9b6aed1405ca3a04f8ca5177d21d1706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1595760673c5f22be78ca0a275f8fab3') in 0.021270 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/ToiletPaper.prefab
+  artifactKey: Guid(e5b4c4d3ea81e5f40b6f6ef4c037bf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/ToiletPaper.prefab using Guid(e5b4c4d3ea81e5f40b6f6ef4c037bf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bdb4141761b8797c98cbcb5f19fda4') in 0.035073 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Toilet_01.prefab
+  artifactKey: Guid(ae90ecc6015806a46b6d74025a73a18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Toilet_01.prefab using Guid(ae90ecc6015806a46b6d74025a73a18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8f79a0025a92341ecf455763e522ff') in 0.041001 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/SoapBottle_02.prefab
+  artifactKey: Guid(37a41acdd29ded54c9ffe5fba16fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/SoapBottle_02.prefab using Guid(37a41acdd29ded54c9ffe5fba16fba90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd3031116433ebe8f198db59189e979') in 0.029350 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/GlassToothbrush_02.prefab
+  artifactKey: Guid(5075fa4a2c2706e439ef334f90527fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/GlassToothbrush_02.prefab using Guid(5075fa4a2c2706e439ef334f90527fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2045e66a457bbf3f046a5cecc6d91d') in 0.018010 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Trash_01.prefab
+  artifactKey: Guid(0fd147cfcb300c14383d6ea56435a430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Trash_01.prefab using Guid(0fd147cfcb300c14383d6ea56435a430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080414b6cc4fd4dfb35b153df4ec3d82') in 0.034685 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Slippers.prefab
+  artifactKey: Guid(96f04489f3924d7418c795a6452a72ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Slippers.prefab using Guid(96f04489f3924d7418c795a6452a72ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd39d7c260b2e779aed60a0d1ad7a35') in 0.057580 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/ShowerTable_01.prefab
+  artifactKey: Guid(d83dae319b796214e93203889b8ae378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/ShowerTable_01.prefab using Guid(d83dae319b796214e93203889b8ae378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd455286cd1cb568f2d988f3c1db180bf') in 0.052039 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/ShowerPart_01.prefab
+  artifactKey: Guid(2f38e447504660e47b70fcd2907fd3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/ShowerPart_01.prefab using Guid(2f38e447504660e47b70fcd2907fd3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9517f655769d5d17bd3284d9876ef7e') in 0.033873 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Radiator_01.prefab
+  artifactKey: Guid(66f5b1584b0eaa34789abbff32448b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Radiator_01.prefab using Guid(66f5b1584b0eaa34789abbff32448b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5ffa4ced7f9d1f46fc9b3f792dd5fa') in 0.034406 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Shower_02.prefab
+  artifactKey: Guid(15de758b0f55e564084c9b82f65cee84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Shower_02.prefab using Guid(15de758b0f55e564084c9b82f65cee84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4bd11994b47d9ea86cad2412e03014') in 0.023219 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Towel_01.prefab
+  artifactKey: Guid(584215d467e1d3544acd2e9268085e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Towel_01.prefab using Guid(584215d467e1d3544acd2e9268085e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df2c87fb4e2cca53e5bb909dcbd5d53') in 0.026235 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Toothbrush_01.prefab
+  artifactKey: Guid(3e8e8dd14748f4a4994697224b9dc1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Toothbrush_01.prefab using Guid(3e8e8dd14748f4a4994697224b9dc1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdcfd0c03120a0ccd27fd9683a65719') in 0.030193 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Towel_03.prefab
+  artifactKey: Guid(b989266903b6730439ee0594e57d740e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/Towel_03.prefab using Guid(b989266903b6730439ee0594e57d740e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e087eae878a187e50c9a732a4e423584') in 0.031026 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/ShowerMirror_01.prefab
+  artifactKey: Guid(d6e454b56901ea4488c8960663505116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/ShowerMirror_01.prefab using Guid(d6e454b56901ea4488c8960663505116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bfa7ac36e94ef98e1bf0c41c801fd3') in 0.037726 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/ShowerPart_02.prefab
+  artifactKey: Guid(08354115243e5bb4cb938165af72d601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Bathroom/ShowerPart_02.prefab using Guid(08354115243e5bb4cb938165af72d601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90283f129396c50e54563501fbcca82') in 0.013837 seconds 
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

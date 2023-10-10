@@ -1,0 +1,268 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ko' Physical Memory: 32524 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker24
+-projectPath
+D:/새 폴더/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct
+-logFile
+Logs/AssetImportWorker24.log
+-srvPort
+5274
+Successfully changed project path to: D:/새 폴더/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct
+D:/새 폴더/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18676] Host "[IP] 192.168.55.154 [Port] 0 [Flags] 2 [Guid] 1241979969 [EditorId] 1241979969 [Version] 1048832 [Id] WindowsEditor(7,������) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18676] Host "[IP] 192.168.55.154 [Port] 0 [Flags] 2 [Guid] 1241979969 [EditorId] 1241979969 [Version] 1048832 [Id] WindowsEditor(7,������) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 101.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/새 폴더/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.3640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004107 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 79.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.497 seconds
+Domain Reload Profiling:
+	ReloadAssembly (497ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (365ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (88ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004280 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 68.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.471 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1472ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1303ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (741ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (550ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5398 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (0.7 MB). Loaded Objects now: 5867.
+Memory consumption went from 233.0 MB to 232.3 MB.
+Total: 3.389000 ms (FindLiveObjects: 0.719200 ms CreateObjectMapping: 0.146500 ms MarkObjects: 2.330700 ms  DeleteObjects: 0.191300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12633.032952 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveFurniture_01.prefab
+  artifactKey: Guid(3d2b92c8c21cd8c44864bf0fbd764deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveFurniture_01.prefab using Guid(3d2b92c8c21cd8c44864bf0fbd764deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f3743259a1e34df8e68c75dcce458b') in 0.204777 seconds 
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveFurniture_09.prefab
+  artifactKey: Guid(011e32ceb24c31e429a43daa3aa183ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveFurniture_09.prefab using Guid(011e32ceb24c31e429a43daa3aa183ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e925f751ecb87ca96559a859dbc1cc') in 0.015341 seconds 
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveFurniture_10.prefab
+  artifactKey: Guid(c00ea538aedf58a4fbf7d2308175e091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveFurniture_10.prefab using Guid(c00ea538aedf58a4fbf7d2308175e091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fac4eca95af7f994720b687fdf2611') in 0.119869 seconds 
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveFurniture_14.prefab
+  artifactKey: Guid(010d43eb21696d84692cb87cc2d62d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveFurniture_14.prefab using Guid(010d43eb21696d84692cb87cc2d62d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2dc940d1c96dea860ac75f86399611c') in 0.059305 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveSink_01.prefab
+  artifactKey: Guid(fc980bc712e66fc4dbf9a372d70f7531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveSink_01.prefab using Guid(fc980bc712e66fc4dbf9a372d70f7531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b754b39d9daeccdfaf971be20c9528') in 0.058161 seconds 
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/ShowerTable_04.prefab
+  artifactKey: Guid(e608c55d59b1b86468d1c2d3db650b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/ShowerTable_04.prefab using Guid(e608c55d59b1b86468d1c2d3db650b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f39606cb2d4aec4e6a64f65eaea85a') in 0.053844 seconds 
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/SwitchLight_02.prefab
+  artifactKey: Guid(bc00ab536c632394190b31a6bf28cfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/SwitchLight_02.prefab using Guid(bc00ab536c632394190b31a6bf28cfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f497a93963beaf820b4def99bd10f51') in 0.030201 seconds 
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/Oven_02.prefab
+  artifactKey: Guid(1177e95fb4e96c743812f4d50b17868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/Oven_02.prefab using Guid(1177e95fb4e96c743812f4d50b17868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce49d77223d0f035330b7d67c6b23373') in 0.041682 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveFurniture_17.prefab
+  artifactKey: Guid(7eadc689c9143f243878fb6e0d57c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveFurniture_17.prefab using Guid(7eadc689c9143f243878fb6e0d57c9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a5c4efd670888297886c9c69c95241') in 0.040899 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveFurniture_05.prefab
+  artifactKey: Guid(118f5c0f8a845fa4eb7aba6fe0213be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveFurniture_05.prefab using Guid(118f5c0f8a845fa4eb7aba6fe0213be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cdf523f586c3810494f8323b1d1c0e') in 0.049433 seconds 
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveFurniture_06.prefab
+  artifactKey: Guid(d1ab15203f6ff044ca9f25076061931a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveFurniture_06.prefab using Guid(d1ab15203f6ff044ca9f25076061931a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd62fd038462a6cf92d71dbfc741538e') in 0.041918 seconds 
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveFurniture_18.prefab
+  artifactKey: Guid(57b7b853a9f274947acb9401cf1babd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/InteractiveFurniture/InteractiveFurniture_18.prefab using Guid(57b7b853a9f274947acb9401cf1babd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8bfa69a6131e32da55017b038a9a55') in 0.048355 seconds 
+Number of asset objects unloaded after import = 18
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.30f1\Editor\Unity.exe
 -name
 AssetImportWorker5
 -projectPath
-C:/Users/dot_mario/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct
+D:/새 폴더/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-13310
-Successfully changed project path to: C:/Users/dot_mario/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct
-C:/Users/dot_mario/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct
+5274
+Successfully changed project path to: D:/새 폴더/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct
+D:/새 폴더/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,16 +47,16 @@ C:/Users/dot_mario/OneDrive - 경희대학교/경희대학교/소융개론/swcon
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13816] Host "[IP] 192.168.55.154 [Port] 0 [Flags] 2 [Guid] 1099644020 [EditorId] 1099644020 [Version] 1048832 [Id] WindowsEditor(7,������) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14156] Host "[IP] 192.168.55.154 [Port] 0 [Flags] 2 [Guid] 188127353 [EditorId] 188127353 [Version] 1048832 [Id] WindowsEditor(7,������) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13816] Host "[IP] 192.168.55.154 [Port] 0 [Flags] 2 [Guid] 1099644020 [EditorId] 1099644020 [Version] 1048832 [Id] WindowsEditor(7,������) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14156] Host "[IP] 192.168.55.154 [Port] 0 [Flags] 2 [Guid] 188127353 [EditorId] 188127353 [Version] 1048832 [Id] WindowsEditor(7,������) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 69.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/dot_mario/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct/Assets
+[Subsystems] Discovering subsystems at path D:/새 폴더/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -68,90 +68,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003537 seconds.
+Registered in 0.002662 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.416 seconds
+- Completed reload, in  0.413 seconds
 Domain Reload Profiling:
-	ReloadAssembly (416ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (414ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (267ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (281ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (61ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (161ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (177ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
+				RefreshPlugins (65ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (69ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005667 seconds.
+Registered in 0.004326 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 80.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 77.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.250 seconds
+- Completed reload, in  1.260 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1251ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (1261ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (1086ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (1104ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (759ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (751ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (548ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (550ms)
 				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5350 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (0.8 MB). Loaded Objects now: 5817.
-Memory consumption went from 231.2 MB to 230.4 MB.
-Total: 4.654700 ms (FindLiveObjects: 0.353800 ms CreateObjectMapping: 0.364000 ms MarkObjects: 3.574200 ms  DeleteObjects: 0.361600 ms)
+Unloading 5398 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (0.7 MB). Loaded Objects now: 5867.
+Memory consumption went from 233.1 MB to 232.3 MB.
+Total: 4.611600 ms (FindLiveObjects: 0.410000 ms CreateObjectMapping: 0.371300 ms MarkObjects: 3.462900 ms  DeleteObjects: 0.366300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,12 +168,223 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 17155.721966 seconds.
-  path: Assets/Assets_Store/Quirky-Series-Cat-v1.4/3D Files/FBX/Animations/Single/Cat_Eat.fbx
-  artifactKey: Guid(c100321c47534244ea152d8ce23a7179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 8013.941322 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Floor/Floor_12.prefab
+  artifactKey: Guid(60dd85dea01ee7443a93b6e2dfe7a516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Assets_Store/Quirky-Series-Cat-v1.4/3D Files/FBX/Animations/Single/Cat_Eat.fbx using Guid(c100321c47534244ea152d8ce23a7179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9976552d818dd5c9c514df33c10ba09') in 0.151664 seconds 
-Number of asset objects unloaded after import = 33
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Floor/Floor_12.prefab using Guid(60dd85dea01ee7443a93b6e2dfe7a516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc08aadfb23d1a9e9fd822a647a7cab5') in 0.140446 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.219 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1219ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1044ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (667ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (552ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5317 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.7 MB). Loaded Objects now: 5890.
+Memory consumption went from 229.2 MB to 228.5 MB.
+Total: 4.914700 ms (FindLiveObjects: 0.505800 ms CreateObjectMapping: 0.456400 ms MarkObjects: 3.500900 ms  DeleteObjects: 0.450100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 569.111782 seconds.
+  path: Assets/Scenes/Main/ReflectionProbe-0.exr
+  artifactKey: Guid(80fb8f715254b60438cbbbcc06dafda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Main/ReflectionProbe-0.exr using Guid(80fb8f715254b60438cbbbcc06dafda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3496043b793109dd926cc04e96c9775d') in 0.126841 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 166.579383 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/Bar_02.prefab
+  artifactKey: Guid(62d52e0672182b54b9ed1306ac3ed74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/Bar_02.prefab using Guid(62d52e0672182b54b9ed1306ac3ed74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1634ea02932851f6c0679142a54eb6') in 0.059928 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenChair_01.prefab
+  artifactKey: Guid(7ddbd6f40ac92d442b02e69682b47879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenChair_01.prefab using Guid(7ddbd6f40ac92d442b02e69682b47879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eceac3642d43c013344ddabd461e698') in 0.034338 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTable_01.prefab
+  artifactKey: Guid(51725fec2f7152c4e9c5920b7ac97bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTable_01.prefab using Guid(51725fec2f7152c4e9c5920b7ac97bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a24357f2c947a6de43626b0642614f') in 0.017344 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop1_06.prefab
+  artifactKey: Guid(a23813f6c53998b49ab7f009c19a8a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop1_06.prefab using Guid(a23813f6c53998b49ab7f009c19a8a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea566bbdc88c48769b7ce61996ebc0a') in 0.027503 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001257 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop2_02.prefab
+  artifactKey: Guid(42c015a860478124c9c68d19f20b9253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop2_02.prefab using Guid(42c015a860478124c9c68d19f20b9253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceede2bfdbbf179cf698333216ee0fd5') in 0.017501 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop2_07.prefab
+  artifactKey: Guid(d18988a82dd8ede4b81bd9a0602f893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop2_07.prefab using Guid(d18988a82dd8ede4b81bd9a0602f893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28990acb40bc5ff508f1f685fe80c7ef') in 0.014367 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop2_06.prefab
+  artifactKey: Guid(c24a3337d5fe21b4ab1885510f8620e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop2_06.prefab using Guid(c24a3337d5fe21b4ab1885510f8620e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6b772e4cbdb4ceea1b711035618ca1') in 0.020478 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTable_02.prefab
+  artifactKey: Guid(caea58059a95c7b489169dee009640fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTable_02.prefab using Guid(caea58059a95c7b489169dee009640fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e872c50fb7d4edb80b2ec5bf643d17') in 0.016620 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop1_08.prefab
+  artifactKey: Guid(dab8756f9cf6476458f93c826c80e787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop1_08.prefab using Guid(dab8756f9cf6476458f93c826c80e787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9bd10bc8811d86a44a5deaf82b051c') in 0.012126 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop2_03.prefab
+  artifactKey: Guid(e579dae7eabdac140818cbd898ffe37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop2_03.prefab using Guid(e579dae7eabdac140818cbd898ffe37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bbf273b9cd1af6133552b8c1930f39') in 0.015205 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop3_03.prefab
+  artifactKey: Guid(e6d1e3b6e24a78a49af9bb891e47f2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop3_03.prefab using Guid(e6d1e3b6e24a78a49af9bb891e47f2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91282bd5c7b705a2e48437387d4d32f8') in 0.013988 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop2_05.prefab
+  artifactKey: Guid(a39a1a5a02f4b2a4884f6c0b49ea2bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop2_05.prefab using Guid(a39a1a5a02f4b2a4884f6c0b49ea2bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419e782c7542eb7a8b44fbd725b364c2') in 0.014952 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/Refrigerator.prefab
+  artifactKey: Guid(52063e4d289c8d64ab48951aba03a0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/Refrigerator.prefab using Guid(52063e4d289c8d64ab48951aba03a0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1be3e321244771d8af435dafc429ba9') in 0.013833 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/Oven.prefab
+  artifactKey: Guid(1c34766b42224fb4b8019ef4e6a7c994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/Oven.prefab using Guid(1c34766b42224fb4b8019ef4e6a7c994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4736f62502d1f11cdae239f6de74bc77') in 0.014296 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop1_05.prefab
+  artifactKey: Guid(ee0b8f191133c4046a97d0f9eb1f1411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop1_05.prefab using Guid(ee0b8f191133c4046a97d0f9eb1f1411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00364e30323d3b10b011ee4d202235f') in 0.011930 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop3_01.prefab
+  artifactKey: Guid(145753d3fb55fb845896a1b3517fec50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop3_01.prefab using Guid(145753d3fb55fb845896a1b3517fec50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c194993a8b6fa8fc605de946fb5703a') in 0.014054 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop2_01.prefab
+  artifactKey: Guid(ded29ad79b7bfb64aa4aaced7e6ced33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop2_01.prefab using Guid(ded29ad79b7bfb64aa4aaced7e6ced33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9f51211515c0450e00a7d2d9e3279f') in 0.014887 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop1_07.prefab
+  artifactKey: Guid(95026130dda3ac141be459b5925725e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Kitchen/KitchenTabletop1_07.prefab using Guid(95026130dda3ac141be459b5925725e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a183e2289838ca8175496f27c204201d') in 0.013154 seconds 
+Number of asset objects unloaded after import = 10
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

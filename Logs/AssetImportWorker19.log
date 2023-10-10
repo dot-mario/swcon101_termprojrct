@@ -1,0 +1,516 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ko' Physical Memory: 32524 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker19
+-projectPath
+D:/새 폴더/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct
+-logFile
+Logs/AssetImportWorker19.log
+-srvPort
+5274
+Successfully changed project path to: D:/새 폴더/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct
+D:/새 폴더/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16024] Host "[IP] 192.168.55.154 [Port] 0 [Flags] 2 [Guid] 3078363777 [EditorId] 3078363777 [Version] 1048832 [Id] WindowsEditor(7,������) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16024] Host "[IP] 192.168.55.154 [Port] 0 [Flags] 2 [Guid] 3078363777 [EditorId] 3078363777 [Version] 1048832 [Id] WindowsEditor(7,������) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 76.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/새 폴더/OneDrive - 경희대학교/경희대학교/소융개론/swcon101_termprojrct/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.3640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.131872 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 66.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.443 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5444ms)
+		BeginReloadAssembly (4951ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (294ms)
+			LoadAssemblies (4948ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (64ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (185ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006795 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 83.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.872 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1873ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (1714ms)
+			LoadAssemblies (549ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (830ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (611ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5398 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (0.7 MB). Loaded Objects now: 5867.
+Memory consumption went from 233.0 MB to 232.3 MB.
+Total: 5.125500 ms (FindLiveObjects: 0.752600 ms CreateObjectMapping: 0.409800 ms MarkObjects: 3.498400 ms  DeleteObjects: 0.462700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12148.694071 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Bed1_01.prefab
+  artifactKey: Guid(4316a13d2d098014e8408179e7dd6ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Bed1_01.prefab using Guid(4316a13d2d098014e8408179e7dd6ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27fda64a43580dc8cf35f3a8437c582') in 0.212841 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Bed_Table_02.prefab
+  artifactKey: Guid(6d40f80c53af9d84493778d071031acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Bed_Table_02.prefab using Guid(6d40f80c53af9d84493778d071031acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f62e065e9bde2477af7579acf388ef4') in 0.019487 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Bed_Table_01.prefab
+  artifactKey: Guid(05a51e2c1a361714d8b8e3f27566d388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Bed_Table_01.prefab using Guid(05a51e2c1a361714d8b8e3f27566d388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdd62bd049f942e5176da6ea4eca5e2') in 0.074373 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001251 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Candle_03.prefab
+  artifactKey: Guid(fa43cf6603cae44488a8444bcd8741e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Candle_03.prefab using Guid(fa43cf6603cae44488a8444bcd8741e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329d01eb5d4bdcc1af8bd90abcc4e9ea') in 0.090662 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Bed2_01.prefab
+  artifactKey: Guid(e4683df5608902e4faca9b59ed3fcf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Bed2_01.prefab using Guid(e4683df5608902e4faca9b59ed3fcf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f58f3445629f5409751aa7c193c3358') in 0.037552 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Clock_01.prefab
+  artifactKey: Guid(2b5395ba2dd1d8347a0e61831b56e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Clock_01.prefab using Guid(2b5395ba2dd1d8347a0e61831b56e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62765e635576f59836831a70bd27c8a') in 0.072799 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Book_01.prefab
+  artifactKey: Guid(a7581c422d68c894b8e1f79d4a93ec06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Book_01.prefab using Guid(a7581c422d68c894b8e1f79d4a93ec06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941e3e9b9be93494aaeeba0f51b5c059') in 0.026095 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Fireplace_01.prefab
+  artifactKey: Guid(16b8bbb85d37802479822767bb08f8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Fireplace_01.prefab using Guid(16b8bbb85d37802479822767bb08f8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdf485fb8277e55cbbfc41feaa2eb4a') in 0.069334 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/KubikRubik.prefab
+  artifactKey: Guid(0c1a7f17c6825c54b90ba2bf623164c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/KubikRubik.prefab using Guid(0c1a7f17c6825c54b90ba2bf623164c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28b82903486615ac31d26c71db0f925') in 0.015980 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/NoteBook_01.prefab
+  artifactKey: Guid(183306c85a8b83f4abbab704f8e8983a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/NoteBook_01.prefab using Guid(183306c85a8b83f4abbab704f8e8983a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb60218dd7b0c7e810929c17484f1b4') in 0.033483 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/OfficeTable_02.prefab
+  artifactKey: Guid(41d515d273968d84bbb7fde5b9eb2e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/OfficeTable_02.prefab using Guid(41d515d273968d84bbb7fde5b9eb2e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be158f94f38790dd3937cdb2e7521146') in 0.039512 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/PC_Screen.prefab
+  artifactKey: Guid(7962a54a625d0244baf380259a19b11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/PC_Screen.prefab using Guid(7962a54a625d0244baf380259a19b11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7b07b44b7183d2485b2abf726a4777') in 0.082349 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Picture_05.prefab
+  artifactKey: Guid(baa58f2d8d22dc5409f628ea32370fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Picture_05.prefab using Guid(baa58f2d8d22dc5409f628ea32370fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5115e1abe065a9958d64887557c5c908') in 0.030866 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Picture_01.prefab
+  artifactKey: Guid(03ccdf572fd0f5945813d0e0485bcf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Picture_01.prefab using Guid(03ccdf572fd0f5945813d0e0485bcf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89aebdfa719115a155921b8c0e65832') in 0.061601 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Picture_08.prefab
+  artifactKey: Guid(ee9fdf0fa0a0e21478867fc42c8b407e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Picture_08.prefab using Guid(ee9fdf0fa0a0e21478867fc42c8b407e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282e474803e95bc6142ff6d9545097bb') in 0.052706 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/OfficeTable_01.prefab
+  artifactKey: Guid(a2404960a3d7a474bbfa4ebc79607c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/OfficeTable_01.prefab using Guid(a2404960a3d7a474bbfa4ebc79607c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebcf73e7f77a92c873be97c2f5c119c') in 0.018322 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/PC_Keyboard.prefab
+  artifactKey: Guid(88ef467e0af46984da4d81f36a784538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/PC_Keyboard.prefab using Guid(88ef467e0af46984da4d81f36a784538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1002dcd1be9e48e7db0b1ecd1f2fe68c') in 0.059047 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Socket_01.prefab
+  artifactKey: Guid(ede612d13ea3c8a4f9981c774aa0a21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Socket_01.prefab using Guid(ede612d13ea3c8a4f9981c774aa0a21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8246a4d78b682eb5ac37873a916827c') in 0.020724 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Sofa_06.prefab
+  artifactKey: Guid(a742e6760425ffc438153aed50613207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Sofa_06.prefab using Guid(a742e6760425ffc438153aed50613207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e254ba9a4a1e1764a6e7dffaabc030e4') in 0.023956 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Mirror_02.prefab
+  artifactKey: Guid(518854b6fb79cf7489b4984e4deb56e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Mirror_02.prefab using Guid(518854b6fb79cf7489b4984e4deb56e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79259c62b840f92672d0d69fb3d942f4') in 0.021976 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Mirror_01.prefab
+  artifactKey: Guid(05976da1c7e2c744994a6574f1a7c686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Mirror_01.prefab using Guid(05976da1c7e2c744994a6574f1a7c686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c40d3b064a0f40ffa201cf20d5136c') in 0.047090 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Picture_03.prefab
+  artifactKey: Guid(788ef17667cdad549a1b52c9f37b2c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Picture_03.prefab using Guid(788ef17667cdad549a1b52c9f37b2c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4add2e5d20e2b58e49d29ac5f1499bae') in 0.040785 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/RoomFurniture_03.prefab
+  artifactKey: Guid(dcd82adec433d504b9a8d7c9e7ca577d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/RoomFurniture_03.prefab using Guid(dcd82adec433d504b9a8d7c9e7ca577d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b67ce78a1668e061fa83245a17887f') in 0.014136 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Sofa_02.prefab
+  artifactKey: Guid(2de9515bbfa6d694f801e31404ebde1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Sofa_02.prefab using Guid(2de9515bbfa6d694f801e31404ebde1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cce63123db02d260f08354fc305683') in 0.034716 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Clock_02.prefab
+  artifactKey: Guid(fef6158bd1cb2a94d8fe92761fa5b038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Clock_02.prefab using Guid(fef6158bd1cb2a94d8fe92761fa5b038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b570f2e07350ced300d749342aeebc') in 0.021923 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/TV_Shelf.prefab
+  artifactKey: Guid(2df7ddb16bdaead488e817af64bbbdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/TV_Shelf.prefab using Guid(2df7ddb16bdaead488e817af64bbbdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6bdd4a128c0e81e1b3851f58863da9') in 0.027271 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Catpet_02.prefab
+  artifactKey: Guid(ee360503ae6e9324981550e01ffadc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Catpet_02.prefab using Guid(ee360503ae6e9324981550e01ffadc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b541ac4ca67a171468405d0a1ee495') in 0.021913 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/TV_Remote.prefab
+  artifactKey: Guid(1c91d4d045cb31942832c0c161b786c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/TV_Remote.prefab using Guid(1c91d4d045cb31942832c0c161b786c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fb7fcd9eb7e345a38dbf47d360a5f6') in 0.025840 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Sofa_05.prefab
+  artifactKey: Guid(0d11b5c3f89d6964382d808d2a82e21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Sofa_05.prefab using Guid(0d11b5c3f89d6964382d808d2a82e21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d21f48afefee311db1424513822800') in 0.039119 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Library.prefab
+  artifactKey: Guid(4c87e50c06877d048b8c748466a72ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Library.prefab using Guid(4c87e50c06877d048b8c748466a72ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8ebd192c32cd5e6ea8bb67ee4b1b1d') in 0.027422 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Pillow_03.prefab
+  artifactKey: Guid(cfb58ac7ae4f548489bed1685ccbaa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Pillow_03.prefab using Guid(cfb58ac7ae4f548489bed1685ccbaa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61904366f3855fb9a3e3b5f1274e65c5') in 0.018905 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/RoomFurniture_02.prefab
+  artifactKey: Guid(ec97a49b450f6954c94ee0faf6810153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/RoomFurniture_02.prefab using Guid(ec97a49b450f6954c94ee0faf6810153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59def04cd62f9a414b99ea7d73df81f') in 0.032337 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/RoomFurniture_08.prefab
+  artifactKey: Guid(4d609cbec61ac0149ac806a96cfcfaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/RoomFurniture_08.prefab using Guid(4d609cbec61ac0149ac806a96cfcfaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff3a988e8ef57eb015a57439763f99f') in 0.022097 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/RoomTable_01.prefab
+  artifactKey: Guid(62edc4ee978a703489e05ccc07d9f824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/RoomTable_01.prefab using Guid(62edc4ee978a703489e05ccc07d9f824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51dfcaf1d3cb6489d8b03cca2e69578') in 0.012306 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/NoteBook_02.prefab
+  artifactKey: Guid(2ddf1684d4a2993469e6e913e0979768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/NoteBook_02.prefab using Guid(2ddf1684d4a2993469e6e913e0979768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5646fb012edac44f469f226bf653662c') in 0.029629 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Sofa_07.prefab
+  artifactKey: Guid(5d9215f3c3c2d84489cf13fcf340c8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Sofa_07.prefab using Guid(5d9215f3c3c2d84489cf13fcf340c8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651252f1057756322aad8847d1c313f0') in 0.013882 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Sofa_08.prefab
+  artifactKey: Guid(6ffe6c150b826694cb4261513ef40af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Sofa_08.prefab using Guid(6ffe6c150b826694cb4261513ef40af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af0d0096dd957ec02e1973565fa5a06') in 0.019413 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/PhotoFrame.prefab
+  artifactKey: Guid(5566f40006009174baf91ddd4a5289b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/PhotoFrame.prefab using Guid(5566f40006009174baf91ddd4a5289b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c03d7a5e3fcec745dad26431f83f69') in 0.024504 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Clock_04.prefab
+  artifactKey: Guid(cb19944529e7d38409f2c1dcd274c39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Clock_04.prefab using Guid(cb19944529e7d38409f2c1dcd274c39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1329af6220ad83286f9df2cb1ede3a1b') in 0.017441 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Candle_02.prefab
+  artifactKey: Guid(b165a589e8cb97c4cafc4cf27e3f2e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Candle_02.prefab using Guid(b165a589e8cb97c4cafc4cf27e3f2e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5cae5dc81365dddf7f1d8d978a6f72') in 0.024275 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Clock_03.prefab
+  artifactKey: Guid(b52d4d49f88b0ae459690b1986dce8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Clock_03.prefab using Guid(b52d4d49f88b0ae459690b1986dce8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338f094571b6796f669ad657e1f7e291') in 0.037567 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/SmartHome.prefab
+  artifactKey: Guid(83bbdbe32df36fc4bbc506d27db863c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/SmartHome.prefab using Guid(83bbdbe32df36fc4bbc506d27db863c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0918ccb630adeffbdfa006bc483f1d5') in 0.022437 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Bed1_02.prefab
+  artifactKey: Guid(38ed3402bbe478140ac71754fc3215f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets_Store/LowPolyInterior/Prefabs/Room/Bed1_02.prefab using Guid(38ed3402bbe478140ac71754fc3215f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089cf3631b6e7fe1938d213df32b1456') in 0.014608 seconds 
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
