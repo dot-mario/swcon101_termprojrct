@@ -1,0 +1,20 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_Landscape"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=D5DD8DAC4DF7CE481BF73BBBB36FF5AB
+   Parent=Material'"/Game/Low_Poly_Town/Materials/M_Landscape.M_Landscape"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Roughness"),ParameterValue=1.000000,ExpressionGUID=90FCDDEB4B2F90ED071B029DFC2DC6AC)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="Scale"),ParameterValue=0.200000,ExpressionGUID=AA6DC7414638B4B0014034A78436268C)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="RefractionDepthBias"))
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=0.203125,UVChannelIndex=0,TextureName="T_Ground_1",TextureReference="/Game/Low_Poly_Town/Textures/T_Ground_1.T_Ground_1")
+   TextureStreamingData(1)=(SamplingScale=0.203125,UVChannelIndex=0,TextureName="T_Ground_2",TextureReference="/Game/Low_Poly_Town/Textures/T_Ground_2.T_Ground_2")
+   TextureStreamingData(2)=(SamplingScale=0.203125,UVChannelIndex=0,TextureName="T_Ground_3",TextureReference="/Game/Low_Poly_Town/Textures/T_Ground_3.T_Ground_3")
+   TextureStreamingData(3)=(SamplingScale=0.203125,UVChannelIndex=0,TextureName="T_Ground_4",TextureReference="/Game/Low_Poly_Town/Textures/T_Ground_4.T_Ground_4")
+   TextureStreamingData(4)=(SamplingScale=0.203125,UVChannelIndex=0,TextureName="T_Ground_5",TextureReference="/Game/Low_Poly_Town/Textures/T_Ground_5.T_Ground_5")
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=33E8C7F9403DBD45A5535F9A82CA4657
+End Object

@@ -1,0 +1,77 @@
+Begin Object Class=/Script/Engine.PhysicsAsset Name="SK_Car_2C_PhysicsAsset"
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_0"
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_1"
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_2"
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_3"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_0"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_1"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_2"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_3"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_4"
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_0"
+      DefaultInstance=(JointName="LT_Rear",ConstraintBone1="LT_Rear",ConstraintBone2="Car_2C_Root",Pos2=(X=-85.912071,Y=44.131378,Z=-65.000000),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_1"
+      DefaultInstance=(JointName="LT_Front",ConstraintBone1="LT_Front",ConstraintBone2="Car_2C_Root",Pos2=(X=69.572784,Y=44.131378,Z=-65.000000),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_2"
+      DefaultInstance=(JointName="RT_Front",ConstraintBone1="RT_Front",ConstraintBone2="Car_2C_Root",Pos2=(X=69.572784,Y=44.131378,Z=65.000000),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_3"
+      DefaultInstance=(JointName="RT_Rear",ConstraintBone1="RT_Rear",ConstraintBone2="Car_2C_Root",Pos2=(X=-85.912071,Y=44.131378,Z=65.000000),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="SkeletalBodySetup_0"
+      AggGeom=(SphylElems=((Center=(X=1.064423,Y=-43.761555,Z=1.032177),Rotation=(Pitch=0.000000,Yaw=-89.203896,Roll=-89.980278),Radius=95.623627,Length=181.141281)))
+      BoneName="Car_2C_Root"
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_1"
+      AggGeom=(SphylElems=((Center=(X=0.000015,Y=-0.000012,Z=0.024342),Rotation=(Pitch=-8.031100,Yaw=-90.000000,Roll=-91.786880),Radius=27.282265,Length=27.770496)))
+      BoneName="LT_Rear"
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_2"
+      AggGeom=(SphylElems=((Center=(X=-0.000008,Y=-0.000011,Z=0.024342),Rotation=(Pitch=-8.007823,Yaw=-90.000008,Roll=-91.865196),Radius=27.279684,Length=27.782949)))
+      BoneName="LT_Front"
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_3"
+      AggGeom=(SphylElems=((Center=(X=-0.000007,Y=0.000014,Z=1.975640),Rotation=(Pitch=2.255404,Yaw=-90.000000,Roll=-87.706932),Radius=26.504675,Length=27.853786)))
+      BoneName="RT_Front"
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_4"
+      AggGeom=(SphylElems=((Center=(X=0.000014,Y=0.000011,Z=1.975641),Rotation=(Pitch=1.867934,Yaw=-90.000000,Roll=-85.365227),Radius=26.442764,Length=28.197868)))
+      BoneName="RT_Rear"
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   PreviewSkeletalMesh="/Game/Low_Poly_Town/Models/Car/SK_Car_2C.SK_Car_2C"
+   BoundsBodies(0)=0
+   BoundsBodies(1)=1
+   BoundsBodies(2)=2
+   BoundsBodies(3)=3
+   BoundsBodies(4)=4
+   SkeletalBodySetups(0)=SkeletalBodySetup'"SkeletalBodySetup_0"'
+   SkeletalBodySetups(1)=SkeletalBodySetup'"SkeletalBodySetup_1"'
+   SkeletalBodySetups(2)=SkeletalBodySetup'"SkeletalBodySetup_2"'
+   SkeletalBodySetups(3)=SkeletalBodySetup'"SkeletalBodySetup_3"'
+   SkeletalBodySetups(4)=SkeletalBodySetup'"SkeletalBodySetup_4"'
+   ConstraintSetup(0)=PhysicsConstraintTemplate'"PhysicsConstraintTemplate_0"'
+   ConstraintSetup(1)=PhysicsConstraintTemplate'"PhysicsConstraintTemplate_1"'
+   ConstraintSetup(2)=PhysicsConstraintTemplate'"PhysicsConstraintTemplate_2"'
+   ConstraintSetup(3)=PhysicsConstraintTemplate'"PhysicsConstraintTemplate_3"'
+   ThumbnailInfo=SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+End Object

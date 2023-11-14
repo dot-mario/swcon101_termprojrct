@@ -366,6 +366,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Assets_Store/Quirky Series Ultimate/Quirky Series Vol.1/Pets Vol.1/_Scripts/Demo.cs"
+"Assets/Script/HumanMovable.cs"
 "Assets/Script/PlayerMovement.cs"
 -langversion:9.0
 

@@ -1,0 +1,214 @@
+Begin Object Class=/Script/Engine.Material Name="M_Grass_1"
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_17"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_18"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_20"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDesaturation Name="MaterialExpressionDesaturation_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionComment_0"
+      SizeX=694
+      SizeY=397
+      Text="Colour"
+      MaterialExpressionEditorX=-1360
+      MaterialExpressionEditorY=-336
+      MaterialExpressionGuid=B9EDDF374F904408959F279EFCAF9303
+      Material=Material'"M_Grass_1"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_1"
+      SizeX=669
+      SizeY=418
+      Text="Opacity_WPO"
+      MaterialExpressionEditorX=-1760
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=AC95301A4B45165EA556539B066F6785
+      Material=Material'"M_Grass_1"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_11"
+      R=0.800000
+      MaterialExpressionEditorX=-640
+      MaterialExpressionEditorY=352
+      MaterialExpressionGuid=0925A64341B4E52DDE636884532EFB8A
+      Material=Material'"M_Grass_1"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_14"
+      R=0.200000
+      MaterialExpressionEditorX=-640
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=0925A64341B4E52DDE636884532EFB8A
+      Material=Material'"M_Grass_1"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_17"
+      R=1.500000
+      MaterialExpressionEditorX=-1712
+      MaterialExpressionEditorY=128
+      MaterialExpressionGuid=0925A64341B4E52DDE636884532EFB8A
+      Material=Material'"M_Grass_1"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_18"
+      R=0.500000
+      MaterialExpressionEditorX=-1712
+      MaterialExpressionEditorY=208
+      MaterialExpressionGuid=0925A64341B4E52DDE636884532EFB8A
+      Material=Material'"M_Grass_1"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_19"
+      R=0.200000
+      MaterialExpressionEditorX=-1712
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=0925A64341B4E52DDE636884532EFB8A
+      Material=Material'"M_Grass_1"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_20"
+      R=1.000000
+      MaterialExpressionEditorX=-1712
+      MaterialExpressionEditorY=368
+      MaterialExpressionGuid=0925A64341B4E52DDE636884532EFB8A
+      Material=Material'"M_Grass_1"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_9"
+      R=0.200000
+      MaterialExpressionEditorX=-880
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=0925A64341B4E52DDE636884532EFB8A
+      Material=Material'"M_Grass_1"'
+   End Object
+   Begin Object Name="MaterialExpressionDesaturation_2"
+      Input=(Expression=MaterialExpressionMultiply'"M_Grass_1:MaterialExpressionMultiply_3"')
+      Fraction=(Expression=MaterialExpressionConstant'"M_Grass_1:MaterialExpressionConstant_9"')
+      MaterialExpressionEditorX=-832
+      MaterialExpressionEditorY=-256
+      MaterialExpressionGuid=BCCFAC1040DB644869D67E80A0DAF9DD
+      Material=Material'"M_Grass_1"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.LinearGradient"'
+      FunctionInputs(0)=(ExpressionInputId=956846354D2549E665DAC68533EC21EC,Input=(OutputIndex=-1,InputName="UV Channel"))
+      FunctionOutputs(0)=(ExpressionOutputId=0F11154B443B1137CC9914998FC01F5E,Output=(OutputName="UGradient"))
+      FunctionOutputs(1)=(ExpressionOutputId=D0E9AADC4F9EEDBBFD95F9B3A5165013,Output=(OutputName="VGradient"))
+      MaterialExpressionEditorX=-1552
+      MaterialExpressionEditorY=368
+      MaterialExpressionGuid=C9E00A9746EAD9649451DFA153BB9B70
+      Material=Material'"M_Grass_1"'
+      Outputs(0)=(OutputName="UGradient")
+      Outputs(1)=(OutputName="VGradient")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_1"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/WorldPositionOffset/SimpleGrassWind.SimpleGrassWind"'
+      FunctionInputs(0)=(ExpressionInputId=59B25CA344057CBC047826BBB081BB6A,Input=(Expression=MaterialExpressionConstant'"M_Grass_1:MaterialExpressionConstant_17"',InputName="WindIntensity"))
+      FunctionInputs(1)=(ExpressionInputId=9F127867429E94C853245BA415B9133D,Input=(Expression=MaterialExpressionConstant'"M_Grass_1:MaterialExpressionConstant_18"',InputName="WindWeight"))
+      FunctionInputs(2)=(ExpressionInputId=B142CFD84EFE5357F8C6E6A44E070E4D,Input=(Expression=MaterialExpressionConstant'"M_Grass_1:MaterialExpressionConstant_19"',InputName="WindSpeed"))
+      FunctionInputs(3)=(ExpressionInputId=12C80829425389C3EE47AC97BD178E9D,Input=(Expression=MaterialExpressionConstant'"M_Grass_1:MaterialExpressionConstant_20"',InputName="AdditionalWPO"))
+      FunctionOutputs(0)=(ExpressionOutputId=786F77A7413AC09BF7F84581E91EE756,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-1536
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=A699C71549BCE75D9176BB8E80A7EC2C
+      Material=Material'"M_Grass_1"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=MaterialExpressionTextureSample'"M_Grass_1:MaterialExpressionTextureSample_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionVectorParameter'"M_Grass_1:MaterialExpressionVectorParameter_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-1056
+      MaterialExpressionEditorY=-288
+      MaterialExpressionGuid=657BEAD34B882F0866963C91FA9D7000
+      Material=Material'"M_Grass_1"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_4"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"M_Grass_1:MaterialExpressionMaterialFunctionCall_1"')
+      B=(Expression=MaterialExpressionOneMinus'"M_Grass_1:MaterialExpressionOneMinus_0"')
+      MaterialExpressionEditorX=-1232
+      MaterialExpressionEditorY=192
+      MaterialExpressionGuid=A398DC994A229D664FA97B94FAFD775E
+      Material=Material'"M_Grass_1"'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_0"
+      Input=(Expression=MaterialExpressionMaterialFunctionCall'"M_Grass_1:MaterialExpressionMaterialFunctionCall_0"',OutputIndex=1)
+      MaterialExpressionEditorX=-1296
+      MaterialExpressionEditorY=304
+      MaterialExpressionGuid=9B43040E4CB78E601A428D9B6E47FC39
+      Material=Material'"M_Grass_1"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_4"
+      Texture=Texture2D'"/Game/Low_Poly_Town/Textures/T_Grass_1.T_Grass_1"'
+      MaterialExpressionEditorX=-1312
+      MaterialExpressionEditorY=-240
+      MaterialExpressionGuid=657ECDA64D89BDB1303116AA455A02EA
+      Material=Material'"M_Grass_1"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      DefaultValue=(R=0.158961,G=0.346704,B=0.130136,A=1.000000)
+      ParameterName="Colour"
+      ExpressionGUID=63F3A10C4682E570F753A69FCA01EE2E
+      MaterialExpressionEditorX=-1136
+      MaterialExpressionEditorY=-160
+      MaterialExpressionGuid=428E8CFC45EF2F0AEF7AFF9A828DF915
+      Material=Material'"M_Grass_1"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionDesaturation'"MaterialExpressionDesaturation_2"')
+   Specular=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_14"')
+   Roughness=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_11"')
+   Opacity=(Expression=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"',OutputIndex=1)
+   OpacityMask=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_4"',OutputIndex=4,Mask=1,MaskA=1)
+   BlendMode=BLEND_Masked
+   ShadingModel=MSM_Subsurface
+   ShadingModels=(ShadingModelField=4)
+   WorldPositionOffset=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_4"')
+   SubsurfaceColor=(Expression=MaterialExpressionDesaturation'"MaterialExpressionDesaturation_2"')
+   bUsedWithStaticLighting=True
+   bUsedWithInstancedStaticMeshes=True
+   Expressions(0)=MaterialExpressionDesaturation'"MaterialExpressionDesaturation_2"'
+   Expressions(1)=MaterialExpressionConstant'"MaterialExpressionConstant_14"'
+   Expressions(2)=MaterialExpressionConstant'"MaterialExpressionConstant_11"'
+   Expressions(3)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(4)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_4"'
+   Expressions(5)=MaterialExpressionMultiply'"MaterialExpressionMultiply_4"'
+   Expressions(6)=MaterialExpressionMultiply'"MaterialExpressionMultiply_3"'
+   Expressions(7)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_2"'
+   Expressions(8)=MaterialExpressionConstant'"MaterialExpressionConstant_9"'
+   Expressions(9)=MaterialExpressionOneMinus'"MaterialExpressionOneMinus_0"'
+   Expressions(10)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_1"'
+   Expressions(11)=MaterialExpressionConstant'"MaterialExpressionConstant_17"'
+   Expressions(12)=MaterialExpressionConstant'"MaterialExpressionConstant_18"'
+   Expressions(13)=MaterialExpressionConstant'"MaterialExpressionConstant_19"'
+   Expressions(14)=MaterialExpressionConstant'"MaterialExpressionConstant_20"'
+   EditorComments(0)=MaterialExpressionComment'"MaterialExpressionComment_0"'
+   EditorComments(1)=MaterialExpressionComment'"MaterialExpressionComment_1"'
+   StateId=5B4F8C774A9B49BD82F63D9F3F7EC39E
+   ReferencedTextureGuids(0)=A08BFF924F01082494E5D298EEAB337C
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Grass_1",TextureReference="/Game/Low_Poly_Town/Textures/T_Grass_1.T_Grass_1")
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=2F0F0869409BD67C2F72899008E48A48
+End Object

@@ -1,0 +1,39 @@
+Begin Object Class=/Script/Engine.Material Name="M_Atlas_4"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=0.800000
+      MaterialExpressionEditorX=-117
+      MaterialExpressionEditorY=180
+      MaterialExpressionGuid=D650B18247398C9047223ABF9A3FEB4F
+      Material=Material'"M_Atlas_4"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/Low_Poly_Town/Textures/T_Atlas_4.T_Atlas_4"'
+      MaterialExpressionEditorX=-208
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=1AD243E14B40E63E4C4DD9A9218CEC9E
+      Material=Material'"M_Atlas_4"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_0"')
+   bUsedWithSkeletalMesh=True
+   bUsedWithStaticLighting=True
+   bUsedWithInstancedStaticMeshes=True
+   EditorX=32
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionConstant'"MaterialExpressionConstant_0"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=2CC5F4B0481AB6E82BE01AB7DFB37F86
+   ReferencedTextureGuids(0)=8DEA2EC042F727D821E748BE3B1022B8
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Atlas_4",TextureReference="/Game/Low_Poly_Town/Textures/T_Atlas_4.T_Atlas_4")
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=3E78110640F6664EC60A2D826D56EC38
+End Object

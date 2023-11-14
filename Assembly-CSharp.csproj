@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\HumanMovable.cs" />
     <Compile Include="Assets\Assets_Store\Quirky Series Ultimate\Quirky Series Vol.1\Pets Vol.1\_Scripts\Demo.cs" />
     <Compile Include="Assets\Script\PlayerMovement.cs" />
   </ItemGroup>

@@ -1,0 +1,40 @@
+Begin Object Class=/Script/Engine.Material Name="M_Atlas"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=0.800000
+      MaterialExpressionEditorX=-117
+      MaterialExpressionEditorY=180
+      MaterialExpressionGuid=D650B18247398C9047223ABF9A3FEB4F
+      Material=Material'"M_Atlas"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/Low_Poly_Town/Textures/T_Atlas.T_Atlas"'
+      MaterialExpressionEditorX=-208
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=1AD243E14B40E63E4C4DD9A9218CEC9E
+      Material=Material'"M_Atlas"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_0"')
+   bUsedWithSkeletalMesh=True
+   bUsedWithStaticLighting=True
+   bUsedWithInstancedStaticMeshes=True
+   EditorX=32
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionConstant'"MaterialExpressionConstant_0"'
+   ParameterGroupData(0)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=F1C6B54A400361EBFE8FA686C1A4611F
+   ReferencedTextureGuids(0)=3D30BB3145D99D222AE8189898476A9C
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Atlas",TextureReference="/Game/Low_Poly_Town/Textures/T_Atlas.T_Atlas")
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=3C05AC964B49FB4895F39FA5A4ACA9D5
+End Object

@@ -1,0 +1,4 @@
+Begin Object Class=/Script/Engine.Skeleton Name="SK_Car_3C_Skeleton"
+   BoneTree(4)=()
+   PreviewSkeletalMesh="/Game/Low_Poly_Town/Models/Car/SK_Car_3C.SK_Car_3C"
+End Object

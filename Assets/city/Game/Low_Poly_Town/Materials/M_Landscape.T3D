@@ -1,0 +1,139 @@
+Begin Object Class=/Script/Engine.Material Name="M_Landscape"
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_1"
+   End Object
+   Begin Object Class=/Script/Landscape.MaterialExpressionLandscapeLayerBlend Name="MaterialExpressionLandscapeLayerBlend_1"
+   End Object
+   Begin Object Class=/Script/Landscape.MaterialExpressionLandscapeLayerCoords Name="MaterialExpressionLandscapeLayerCoords_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_7"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionComment_1"
+      SizeX=432
+      SizeY=1120
+      Text="Base Color"
+      MaterialExpressionEditorX=-1200
+      MaterialExpressionEditorY=-192
+      MaterialExpressionGuid=B9D7EE98481AF1691F99AA97768E8D6D
+      Material=Material'"M_Landscape"'
+   End Object
+   Begin Object Name="MaterialExpressionLandscapeLayerBlend_1"
+      Layers(0)=(LayerName="Ground_1",LayerInput=(Expression=MaterialExpressionTextureSample'"M_Landscape:MaterialExpressionTextureSample_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1),PreviewWeight=0.500000)
+      Layers(1)=(LayerName="Ground_2",LayerInput=(Expression=MaterialExpressionTextureSample'"M_Landscape:MaterialExpressionTextureSample_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1),PreviewWeight=0.500000)
+      Layers(2)=(LayerName="Ground_3",LayerInput=(Expression=MaterialExpressionTextureSample'"M_Landscape:MaterialExpressionTextureSample_5"',Mask=1,MaskR=1,MaskG=1,MaskB=1),PreviewWeight=0.500000)
+      Layers(3)=(LayerName="Ground_4",LayerInput=(Expression=MaterialExpressionTextureSample'"M_Landscape:MaterialExpressionTextureSample_6"',Mask=1,MaskR=1,MaskG=1,MaskB=1),PreviewWeight=0.500000)
+      Layers(4)=(LayerName="Ground_5",LayerInput=(Expression=MaterialExpressionTextureSample'"M_Landscape:MaterialExpressionTextureSample_7"',Mask=1,MaskR=1,MaskG=1,MaskB=1),PreviewWeight=0.500000)
+      MaterialExpressionEditorX=-512
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=DB0528EB45757302EB91EA8A7D98A3C4
+      Material=Material'"M_Landscape"'
+   End Object
+   Begin Object Name="MaterialExpressionLandscapeLayerCoords_0"
+      MaterialExpressionEditorX=-1939
+      MaterialExpressionEditorY=124
+      MaterialExpressionGuid=6E37EA2C437D724F491AC1AF9B658284
+      Material=Material'"M_Landscape"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionLandscapeLayerCoords'"M_Landscape:MaterialExpressionLandscapeLayerCoords_0"')
+      B=(Expression=MaterialExpressionScalarParameter'"M_Landscape:MaterialExpressionScalarParameter_2"')
+      MaterialExpressionEditorX=-1728
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=CFEAA31A4F1E4A673667D99731AD17DD
+      Material=Material'"M_Landscape"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=0.750000
+      ParameterName="Roughness"
+      ExpressionGUID=90FCDDEB4B2F90ED071B029DFC2DC6AC
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=192
+      MaterialExpressionGuid=11FEF6154A4185911C4BCC8060832E8A
+      Material=Material'"M_Landscape"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      ParameterName="Scale"
+      ExpressionGUID=AA6DC7414638B4B0014034A78436268C
+      MaterialExpressionEditorX=-1859
+      MaterialExpressionEditorY=396
+      MaterialExpressionGuid=28BCBCAE40DF1A122FBE898E2124019A
+      Material=Material'"M_Landscape"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Coordinates=(Expression=MaterialExpressionMultiply'"M_Landscape:MaterialExpressionMultiply_1"')
+      Texture=Texture2D'"/Game/Low_Poly_Town/Textures/T_Ground_2.T_Ground_2"'
+      MaterialExpressionEditorX=-1144
+      MaterialExpressionEditorY=66
+      MaterialExpressionGuid=03C79B69496C7EDD85D01D93C2ED3538
+      Material=Material'"M_Landscape"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Coordinates=(Expression=MaterialExpressionMultiply'"M_Landscape:MaterialExpressionMultiply_1"')
+      Texture=Texture2D'"/Game/Low_Poly_Town/Textures/T_Ground_1.T_Ground_1"'
+      MaterialExpressionEditorX=-1150
+      MaterialExpressionEditorY=-142
+      MaterialExpressionGuid=5DA078724D75CD492910BDAE6F6BF847
+      Material=Material'"M_Landscape"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_5"
+      Coordinates=(Expression=MaterialExpressionMultiply'"M_Landscape:MaterialExpressionMultiply_1"')
+      Texture=Texture2D'"/Game/Low_Poly_Town/Textures/T_Ground_3.T_Ground_3"'
+      MaterialExpressionEditorX=-1152
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=21DD62474F78C809D34479ABF49EA94F
+      Material=Material'"M_Landscape"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_6"
+      Coordinates=(Expression=MaterialExpressionMultiply'"M_Landscape:MaterialExpressionMultiply_1"')
+      Texture=Texture2D'"/Game/Low_Poly_Town/Textures/T_Ground_4.T_Ground_4"'
+      MaterialExpressionEditorX=-1152
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=ED0FD35847CCB60F3672668D4BA67313
+      Material=Material'"M_Landscape"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_7"
+      Coordinates=(Expression=MaterialExpressionMultiply'"M_Landscape:MaterialExpressionMultiply_1"')
+      Texture=Texture2D'"/Game/Low_Poly_Town/Textures/T_Ground_5.T_Ground_5"'
+      MaterialExpressionEditorX=-1152
+      MaterialExpressionEditorY=704
+      MaterialExpressionGuid=9C29057241D8958CEBACE98518252B7A
+      Material=Material'"M_Landscape"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionLandscapeLayerBlend'"MaterialExpressionLandscapeLayerBlend_1"')
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"')
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionLandscapeLayerBlend'"MaterialExpressionLandscapeLayerBlend_1"'
+   Expressions(1)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   Expressions(3)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"'
+   Expressions(4)=MaterialExpressionLandscapeLayerCoords'"MaterialExpressionLandscapeLayerCoords_0"'
+   Expressions(5)=MaterialExpressionMultiply'"MaterialExpressionMultiply_1"'
+   Expressions(6)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"'
+   Expressions(7)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_5"'
+   Expressions(8)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_6"'
+   Expressions(9)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_7"'
+   EditorComments(0)=MaterialExpressionComment'"MaterialExpressionComment_1"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=B4F3CD7749DB7111F4453CAD9C27AB89
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=E567E9E5458B4B6BF840B4A38D8A22C3
+End Object

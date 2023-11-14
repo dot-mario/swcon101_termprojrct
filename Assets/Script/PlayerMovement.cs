@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     bool jUp;
     bool isJump = false;
     bool sRun;
-    bool isForced = false;
+    //bool isForced = false;
     bool isFly = false; // 공중에 있는지 여부를 나타내는 변수
     bool jumpFocusing = false; //점프 차징 여부
     bool isGrounded;
@@ -194,22 +194,23 @@ public class PlayerMovement : MonoBehaviour
                 anim.SetBool("isJumpingBegin", true);
                 jumpFocusing = true;
             }
-            else if (jDowned && jumpKeyStartTime > 1.0f)
+            else if (jumpKeyStartTime > 1.0f)
             {
                 anim.SetTrigger("doJumpBegin");
                 jumpFocusing = true;
-                jDowned = false;
+                //jDowned = false;
             }
         }
-        if (jUp && !isJump && isGrounded) // Jump하고 있는 상황에서 Jump 하지 않도록 방지        
+        else if (jUp && !isJump && isGrounded) // Jump하고 있는 상황에서 Jump 하지 않도록 방지        
         {
             isJump = true;
             jumpFocusing = false;
             if (jumpKeyStartTime < 1.0f)
             {
                 anim.SetTrigger("doJump");
+                jumpForce = minJumpForce;
             }
-            if (jumpKeyStartTime < maxJumpTime)
+            else if (jumpKeyStartTime < maxJumpTime)
             {
                 float normalizedGauge = Mathf.Clamp01(jumpKeyStartTime / maxJumpTime);
                 jumpForce = Mathf.Lerp(minJumpForce, maxJumpForce, normalizedGauge);
@@ -273,37 +274,37 @@ public class PlayerMovement : MonoBehaviour
     }
     void ForceCheck()
     {
-        if (isJump)
-        {
-            isForced = false;
-            Debug.Log("not Force 1 / 점프중임");
-            return;
-        }
-        else
-        {
-            totalForce = rigid.velocity * rigid.mass / Time.fixedDeltaTime;
-            //Debug.Log($"Force check: {totalForce.magnitude}");
-            if (totalForce.magnitude >= minForceMagnitude)
-            {
-                isForced = true;
-                Debug.Log("Force 1 / 많은 힘을 받음");
-            }
-            if (isForced)
-            {
-                currentForcedTime += Time.fixedDeltaTime;
-                if (currentForcedTime > 3.0f)
-                {
-                    isForced = false;
-                    Debug.Log("not Force 2 / 힘을 받은지 3초가 지남");
-                    currentForcedTime = 0.0f;
-                    RestForce();
-                }
-                else
-                {
-                    isForced = true;
-                }
-            }
-        }
+        //if (isJump)
+        //{
+        //    isForced = false;
+        //    Debug.Log("not Force 1 / 점프중임");
+        //    return;
+        //}
+        //else
+        //{
+        //    totalForce = rigid.velocity * rigid.mass / Time.fixedDeltaTime;
+        //    //Debug.Log($"Force check: {totalForce.magnitude}");
+        //    if (totalForce.magnitude >= minForceMagnitude)
+        //    {
+        //        isForced = true;
+        //        Debug.Log("Force 1 / 많은 힘을 받음");
+        //    }
+        //    if (isForced)
+        //    {
+        //        currentForcedTime += Time.fixedDeltaTime;
+        //        if (currentForcedTime > 3.0f)
+        //        {
+        //            isForced = false;
+        //            Debug.Log("not Force 2 / 힘을 받은지 3초가 지남");
+        //            currentForcedTime = 0.0f;
+        //            RestForce();
+        //        }
+        //        else
+        //        {
+        //            isForced = true;
+        //        }
+        //    }
+        //}
     }
     void FlyCheck()
     {
