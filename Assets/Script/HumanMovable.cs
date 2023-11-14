@@ -5,6 +5,14 @@ using UnityEngine.AI;
 
 public class HumanMovable : MonoBehaviour
 {
+    [SerializeField] bool DebugMode = false;
+    [Range(0f, 360f)][SerializeField] float ViewAngle = 0f;
+    [SerializeField] float ViewRadius = 1f;
+    [SerializeField] LayerMask TargetMask;
+    [SerializeField] LayerMask ObstacleMask;
+
+    public Transform[] points;
+
     // 길을 찾아서 이동할 에이전트
     NavMeshAgent agent;
     Animator anim;
