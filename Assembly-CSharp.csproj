@@ -57,8 +57,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\HumanMovable.cs" />
+    <Compile Include="Assets\Script\BoxCollector.cs" />
+    <Compile Include="Assets\Script\Cover.cs" />
+    <Compile Include="Assets\Script\GameController.cs" />
+    <Compile Include="Assets\Script\TriggerDoorController.cs" />
     <Compile Include="Assets\Assets_Store\Quirky Series Ultimate\Quirky Series Vol.1\Pets Vol.1\_Scripts\Demo.cs" />
     <Compile Include="Assets\Script\PlayerMovement.cs" />
+    <Compile Include="Assets\Script\HumanTeskPoints.cs" />
+    <Compile Include="Assets\Script\HumanViewPartGizmo.cs" />
+    <Compile Include="Assets\Script\Timer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets_Store\Quirky Series Ultimate\Quirky Series Vol.1\Pets Vol.1\_Shader\SoftSurface.shader" />

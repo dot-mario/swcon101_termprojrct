@@ -16,12 +16,10 @@ public class PlayerMovement : MonoBehaviour
     float hAxis;
     float vAxis;
     bool jDown;
-    bool jDowned = true;
     bool jUp;
     bool isJump = false;
     bool sRun;
     //bool isForced = false;
-    bool isFly = false; // 공중에 있는지 여부를 나타내는 변수
     bool jumpFocusing = false; //점프 차징 여부
     bool isGrounded;
     float jumpForce = 0f; // 점프 힘
@@ -31,9 +29,7 @@ public class PlayerMovement : MonoBehaviour
     float jumpAnimLength;
     //float gravity; // 중력 가속도
     float currentFlyTime = 0.0f; // 현재 공중에 있는 시간
-    float currentForcedTime = 0.0f;
     float currentRunningTime = 0.0f;
-    Vector3 totalForce;
 
     public float walk_speed = 3;
     public float additional_run_speed = 3;
@@ -63,32 +59,15 @@ public class PlayerMovement : MonoBehaviour
         // 애니메이션 이름과 일치하는 애니메이션을 찾습니다.
         foreach (AnimationClip clip in clips)
         {
-            if (clip.name == "Jump")
-            {
-                // 애니메이션의 길이(초)를 얻습니다.
-                jumpAnimLength = clip.length;
-                Debug.Log("애니메이션 '" + "Jump" + "'의 길이: " + jumpAnimLength + "초");
-            }
             if (clip.name == "Fear (1)")
             {
                 // 애니메이션의 길이(초)를 얻습니다.
                 jumpAnimLength = clip.length;
                 Debug.Log("애니메이션 '" + "Fear (1)" + "'의 길이: " + jumpAnimLength + "초");
+                anim.SetFloat("JumpSpeed", (float)(jumpAnimLength / maxJumpTime));
+                Debug.Log("애니메이션 '" + "Fear (1)" + "'의 길이: " + (float)(jumpAnimLength / maxJumpTime) + "초");
             }
         }
-
-        //자식 오브젝트
-        //Transform childTransform = transform.Find("Cat");
-        //if (childTransform != null)
-        //{
-        //    // 자식 오브젝트를 찾았을 때 원하는 작업 수행
-        //    cat = childTransform.gameObject;
-        //    Debug.Log("자식 오브젝트를 찾았습니다: " + cat.name);
-        //}
-        //else
-        //{
-        //    Debug.Log("자식 오브젝트를 찾지 못했습니다.");
-        //}
     }
 
     void Update()
@@ -100,7 +79,6 @@ public class PlayerMovement : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        ForceCheck();
         GroundCheck();
         FlyCheck();
     }
@@ -116,10 +94,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Move()
     {
-        //if (isForced)
-        //    return;
-
-        //moveVec = new Vector3(hAxis, 0, vAxis).normalized;
         // 카메라의 방향을 기준으로 이동 방향을 설정
         // Cinemachine FreeLook 카메라의 X Axis와 Y Axis 값을 가져와서 이동 방향을 설정
         float cameraXAxis = freeLookCamera.m_XAxis.Value;
@@ -137,17 +111,13 @@ public class PlayerMovement : MonoBehaviour
             focusDebuff = 0;
         }
 
-        if (sRun)
+        if (sRun) //뛸 때
         {
             anim.SetBool("isWalk", false);
             currentRunningTime += Time.deltaTime;
-            //Debug.Log("Roll: " + currentRunningTime);
-            if (currentRunningTime > rollingTime)
+            if (currentRunningTime > rollingTime) //오래 뛰면 굴르게
             {
                 transform.position += moveVec * (walk_speed + additional_run_speed + additional_roll_speed) * focusDebuff * Time.deltaTime;
-                //cat.transform.rotation *= Quaternion.Euler(rotationSpeed, 0, 0);
-                //rigid.AddTorque(transform.right * rotationSpeed);
-                //cat.GetComponent<Rigidbody>().AddTorque(transform.right * rotationSpeed);
                 anim.SetBool("isRoll", true);
             }
             else
@@ -157,7 +127,7 @@ public class PlayerMovement : MonoBehaviour
                 anim.SetBool("isRun", true);
             }
         }
-        else
+        else //걸을 때
         {
             rigid.angularVelocity = Vector3.zero;
             currentRunningTime = 0;
@@ -172,7 +142,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (moveVec != Vector3.zero)
         {
-            // 이동 방향을 기반으로 플레이어를 회전시킵니다.
             Quaternion targetRotation = Quaternion.LookRotation(moveVec);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 10f);
         }
@@ -187,7 +156,6 @@ public class PlayerMovement : MonoBehaviour
         if (jDown && !isJump && isGrounded)
         {
             jumpKeyStartTime += Time.deltaTime;
-            anim.SetFloat("JumpSpeed", (float)(jumpAnimLength / maxJumpTime));
             //Debug.Log("Speed: " + 0.154 / jumpKeyStartTime);
             if (jumpKeyStartTime > maxJumpTime)
             {
@@ -198,7 +166,6 @@ public class PlayerMovement : MonoBehaviour
             {
                 anim.SetTrigger("doJumpBegin");
                 jumpFocusing = true;
-                //jDowned = false;
             }
         }
         else if (jUp && !isJump && isGrounded) // Jump하고 있는 상황에서 Jump 하지 않도록 방지        
@@ -233,82 +200,28 @@ public class PlayerMovement : MonoBehaviour
             rigid.AddForce(Vector3.up * adjustedJumpForce, ForceMode.Impulse);
 
             Debug.Log("점프");
-
-
-
-            //float currentHeight = transform.position.y - rigid.position.y;
-            ////float maxHeight = (jumpForce * jumpForce) / (2 * gravity * mass); // 최대 높이 계산
-
-            ////jumpDuration = Mathf.Sqrt((2 * maxHeight) / gravity) * 2; // 점프 시간 계산
-            ////Debug.Log("이론적 경과 시간: " + jumpDuration);
-            ////anim.SetFloat("JumpSpeed", jumpAnimLength / jumpDuration); // 점프 시간을 이용하여 애니메이션 속도 조절
-
-            //if (currentHeight >= maxHeight)
-            //{
-            //    Debug.Log("이론적 고점");
-            //    // 점프 중 높이가 최대 높이에 도달하면 점프 종료
-            //    //isJump = false;
-            //    //jumpDuration = Mathf.Sqrt((2 * maxHeight) / gravity); // 점프 시간 계산
-            //    //anim.SetFloat("JumpSpeed", jumpDuration); // 점프 시간을 이용하여 애니메이션 속도 조절
-            //}
         }
     }
     void GroundCheck()
     {
         // 플레이어 주변에 Raycast를 쏘아 안정된 표면에 있는지를 판단
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, -transform.up, out hit, 0.1f)) // -transform.up은 아래 방향을 나타냅니다.
+        if (Physics.Raycast(transform.position, -transform.up, out hit, 0.1f))
         {
             float angle = Vector3.Angle(hit.normal, Vector3.up);
             if (angle < 10f) // 표면의 법선 벡터가 일정 각도 이하로 기울어져 있으면 안정된 표면으로 간주
             {
                 isGrounded = true;
-                isFly = false;
                 anim.SetBool("isFly", false);
                 isJump = false;
                 return;
             }
         }
         isGrounded = false;
-        isFly = true;
-    }
-    void ForceCheck()
-    {
-        //if (isJump)
-        //{
-        //    isForced = false;
-        //    Debug.Log("not Force 1 / 점프중임");
-        //    return;
-        //}
-        //else
-        //{
-        //    totalForce = rigid.velocity * rigid.mass / Time.fixedDeltaTime;
-        //    //Debug.Log($"Force check: {totalForce.magnitude}");
-        //    if (totalForce.magnitude >= minForceMagnitude)
-        //    {
-        //        isForced = true;
-        //        Debug.Log("Force 1 / 많은 힘을 받음");
-        //    }
-        //    if (isForced)
-        //    {
-        //        currentForcedTime += Time.fixedDeltaTime;
-        //        if (currentForcedTime > 3.0f)
-        //        {
-        //            isForced = false;
-        //            Debug.Log("not Force 2 / 힘을 받은지 3초가 지남");
-        //            currentForcedTime = 0.0f;
-        //            RestForce();
-        //        }
-        //        else
-        //        {
-        //            isForced = true;
-        //        }
-        //    }
-        //}
     }
     void FlyCheck()
     {
-        if(isFly)
+        if(!isGrounded)
         {
             currentFlyTime += Time.fixedDeltaTime;
             if (currentFlyTime >= flyTimeThreshold)
@@ -319,34 +232,5 @@ public class PlayerMovement : MonoBehaviour
         {
             currentFlyTime = 0;
         }
-    }
-
-    // OnCollisionEnter를 사용하여 캐릭터가 땅에 닿았는지 확인
-    void OnCollisionEnter(Collision collision)
-    {
-        //isFly = false;
-        //anim.SetBool("isFly", false);
-        jDowned = true;
-        //if (collision.gameObject.CompareTag("Ground"))
-        //{
-        //    isJump = false;
-        //    jDowned = true;
-        //    //Debug.Log("경과 시간: " + (Time.time - jumpStartTime));
-        //}
-    }
-
-    // OnCollisionExit를 사용하여 캐릭터가 땅에서 벗어났는지 확인
-    void OnCollisionExit(Collision collision)
-    {
-        //isFly = true;
-        //if (collision.gameObject.CompareTag("Ground"))
-        //{
-        //    //isGrounded = false;
-        //}
-    }
-    void RestForce()
-    {
-        Debug.Log("Rest Force");
-        rigid.velocity = Vector3.zero;
     }
 }

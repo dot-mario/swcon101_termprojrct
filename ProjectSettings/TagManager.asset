@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CinemachineTarget
   - Ground
+  - GiftBox
+  - End
   layers:
   - Default
   - TransparentFX
@@ -15,10 +17,10 @@ TagManager:
   - UI
   - Player
   - Ground
-  - 
-  - 
-  - 
-  - 
+  - Human
+  - House
+  - Door
+  - GiftBox
   - 
   - 
   - 

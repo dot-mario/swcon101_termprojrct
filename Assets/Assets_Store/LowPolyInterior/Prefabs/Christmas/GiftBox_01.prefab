@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 9132618245688828808}
   - component: {fileID: 9132618245692253096}
   - component: {fileID: 9132618245691253096}
-  - component: {fileID: 5704910172050832439}
-  m_Layer: 0
+  - component: {fileID: 807079596}
+  - component: {fileID: 692825693}
+  m_Layer: 11
   m_Name: GiftBox_01
-  m_TagString: Untagged
+  m_TagString: GiftBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,8 +85,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5704910172050832439
-MeshCollider:
+--- !u!65 &807079596
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,7 +95,22 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 83340c6f28ff8fc40a6c09e8214ba46f, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.44, y: 0.3841557, z: 0.4265431}
+  m_Center: {x: 0, y: 0.19207779, z: 0.0032716542}
+--- !u!54 &692825693
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9132618245689261992}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
